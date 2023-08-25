@@ -4,7 +4,7 @@
  [{"git":
    {"url": "https://github.com/adamtopaz/lean_grader",
     "subDir?": null,
-    "rev": "a32cb940ad41dde4c8c71e118b9790a51b790fc0",
+    "rev": "78fdff947d45a161412debce6e1fa2779b5d628a",
     "name": "lean_grader",
     "inputRev?": null}},
   {"git":
@@ -22,7 +22,7 @@
   {"git":
    {"url": "https://github.com/leanprover-community/mathlib4.git",
     "subDir?": null,
-    "rev": "cc20f81507e7313dfc1e0f2fada8efb3eaff525f",
+    "rev": "41aa37ba2566c3b7a7605956387e19b013f72d21",
     "name": "mathlib",
     "inputRev?": null}},
   {"git":
