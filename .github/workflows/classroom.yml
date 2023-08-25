@@ -1,6 +1,8 @@
 name: GitHub Classroom Workflow
 
-on: [push]
+on:
+  pull_request:
+    types: [opened, edited]
 
 permissions:
   checks: write
@@ -30,8 +32,8 @@ jobs:
         run: |
           lake exe cache get
       - name: Initial lake build
-        run: | 
-          lake build 
+        run: |
+          lake build
       - name: classroom autograding
         uses: education/autograding@v1
       - name : Emit hashes
