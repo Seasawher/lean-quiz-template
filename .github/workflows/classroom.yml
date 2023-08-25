@@ -3,6 +3,9 @@ name: GitHub Classroom Workflow
 on:
   pull_request:
     types: [opened, edited]
+    paths:
+      # Leanファイルが変更されたときに実行
+      - '**.lean'
 
 permissions:
   checks: write
