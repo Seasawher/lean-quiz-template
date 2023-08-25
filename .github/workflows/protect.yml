@@ -1,7 +1,8 @@
 name: Protect GitHub Action
 
 on:
-  pull_request:
+  pull_request_target:
+    types: [opened, edited]
     paths:
       # .github ディレクトリ以下のファイルは変更を許可しない
       - '.github/**'
