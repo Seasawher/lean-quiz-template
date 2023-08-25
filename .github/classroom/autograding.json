@@ -3,7 +3,7 @@
     {
       "name": "grade",
       "setup": "",
-      "run": "lake exe grade 421340980",
+      "run": "lake exe grade 1213423398",
       "input": "",
       "output": "",
       "comparison": "included",
