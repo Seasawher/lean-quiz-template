@@ -1,0 +1,21 @@
+name: Protect GitHub Action
+
+on:
+  pull_request:
+    paths:
+      # .github ディレクトリ以下のファイルは変更を許可しない
+      - '.github/**'
+
+permissions:
+  checks: write
+  actions: read
+
+jobs:
+  build:
+    name: protect
+    runs-on: ubuntu-latest
+    steps:
+      - name: error
+        run: |
+          echo "don't change .github directory"
+          exit 1
