@@ -19,7 +19,7 @@ git remote add upstream https://github.com/Seasawher/lean-quiz-template.git
 
 3. 問題を用意します．回答者に証明してほしい命題を `your_theorem` として，`Solution.lean` ファイルに次のコードを書きます．
 
-```lean4
+```lean
 import LeanGrader.Basic
 
 def solution : {your_theorem} := by
